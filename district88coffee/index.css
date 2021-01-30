@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	background-color: #808080;
+}
+#district h1 {
+	background-color: #484848;
+    background-image: linear-gradient(to bottom, #181818, #484848, #808080);
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000, 2px 2px 4px #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*Picture Slide Part*/
+#slider {
+	overflow: hidden;
+	width: 100%;
+	border-top: #000;
+	border-bottom: #000;
+}
+
+#slider  figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 15s slider infinite;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+	max-height: 700px;
+	margin: 0;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+	
+}
+
+/* navigation part*/
+#navigation {
+	clear: both;
+	background-color: #484848;
+    background-image: linear-gradient(to bottom, #181818, #484848, #808080);
+	margin: auto;
+	width: 100%;
+	display: inline-block:
+	
+}
+ nav {
+	 text-align: center;
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+ }
+ 
+ nav li {
+	 margin-left: 30px;
+	 display: inline-block;
+	 padding: 10px;
+	 list-style: none;
+	 text-shadow: 2px 2px 4px #000;
+ }
+ nav li img {
+	 max-height: 50px;
+	 max-width: 50px;
+ }
+ a {
+	 text-decoration: none;
+	 cursor: pointer;
+ }
+ 
+ a:hover {
+  opacity: 0.7;
+}
+
+/*About us and Hot Event Part*/
+/*2 Column*/
+.container {
+    display: table;
+    width: 100%;
+	margin: 0;
+	position: relative;
+	text-align: center;
+}
+.column {
+    display: table-cell;
+	width: 50%;
+    background-color: #484848;
+    background-image: linear-gradient(to top, #181818, #484848, #808080);  
+}
+.column:nth-of-type(2n-1) {
+	background-color: #484848;
+    background-image: linear-gradient(to top, #181818, #484848, #808080);
+	 width: 50%;
+}
+.column h2 {
+	text-shadow: 2px 2px 4px #000, 2px 2px 4px #000;
+}
+.column p {
+	color: #964b00;
+	text-shadow: 2px 2px 4px #000;
+}
+/*menu part*/
+.card {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 12px 12px 2px 1px rgb(64,64,64);
+	padding-top: 10px;
+	background-color: rgb(128,128,128);
+}
+.card button {
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+.card img {
+	width: 100%;
+}
+
+/*Footer Part*/
+/*Social Sharing*/
+.footer {
+	text-align: center;
+	background-color: #484848;
+    background-image: linear-gradient(to top, #181818, #484848, #808080);
+	display:inline-block;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.footer h2 {
+	color: #964b00;
+	text-shadow: 2px 2px 4px #000, 2px 2px 4px #000;
+}
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
